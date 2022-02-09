@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam</title>
+
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="border bg-light text-light d-flex flex-column">
+      <h1 class="mt-5 text-success text-center ">Weather</h1>
+      <div class="mt-5 d-flex justify-content-center row">
+        <input type="search" class="w-25 p-3 border border-success ms-3 region__input input form-control"
+          placeholder="Search city" aria-label="city" aria-describedby="basic-addon1">
+        <ul class="ms-3 list">
+        </ul>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div class="w-25  region__list d-flex  flex-column">
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="40.7833471" data-lon="72.350.6746">Andijan</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="39.7675529" data-lon="64.4231326">Buxara</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="40.3764879" data-lon="71.7913193">Fergana</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="40.1331797" data-lon="67.8234081">Jizzakh</button>
+
+        </div>
+        <div class="w-25  region__list d-flex flex-column">
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="40.9996482" data-lon="71.6726238">Namangan</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="38.5817716" data-lon="45.0577839">Navai</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="38.83998" data-lon="65.7927948">Kashkadarya</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="39.6550017" data-lon="66.9756954">Samarkand</button>
+        </div>
+        <div class="w-25  region__list d-flex flex-column me-3 mb-5 ">
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="40.8309135" data-lon="68.6661865">Surkhandarya</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="41.3072463" data-lon="69.5660156">Karakalpakistan</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item"
+            data-lat="41.3776893" data-lon="60.3620006">Xorezm</button>
+          <button class="border border-success  bg-success form-control text-white m-2 p-3 region__item "
+            data-lat="41.3123363" data-lon="69.2787079">Tashkent</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

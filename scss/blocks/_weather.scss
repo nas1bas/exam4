@@ -1,0 +1,17 @@
+.weather {
+    text-align: center;
+    margin-top: 0;
+    &__btn {
+        width: 200px;
+        border-radius: 30px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.city-deg {
+    margin-right: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+}

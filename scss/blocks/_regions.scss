@@ -1,0 +1,13 @@
+.region {
+    &__input {
+        border-radius: 30px;
+    }
+    &__item {
+        border-radius: 30px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+
